@@ -13,8 +13,9 @@
 	export default {
 		data() {
 			return {
-				baseUrl:"http://localhost:8080/yinji/page/index/main",
-				data:{}
+				//baseUrl:"http://www.baidu.com"
+				baseUrl:"http://192.168.0.111:8080/yinji/page/index/main?userId=2"
+				,data:{}
 			}
 		},
 		methods: {
